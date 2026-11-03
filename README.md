@@ -1,4 +1,4 @@
-# sebbpro-discovery
+# client-discovery-agent
 
 Phase Discovery: Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen.
 
@@ -9,8 +9,8 @@ Phase Discovery: Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account
 ## Installation (Claude Code)
 
 ```
-/plugin marketplace add sebbpro/sebbpro-discovery
-/plugin install sebbpro-discovery@sebbpro-discovery-marketplace
+/plugin marketplace add sebbpro/client-discovery-agent
+/plugin install client-discovery-agent@client-discovery-agent-marketplace
 ```
 
-Danach: `/sebbpro-discovery:ai-discovery-intake` oder einfach „Discovery starten“.
+Danach: `/client-discovery-agent:ai-discovery-intake` oder einfach „Discovery starten“.

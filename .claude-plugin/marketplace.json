@@ -1,10 +1,10 @@
 {
-  "name": "sebbpro-discovery-marketplace",
+  "name": "client-discovery-agent-marketplace",
   "owner": { "name": "sebb.pro", "url": "https://sebb.pro" },
   "plugins": [
     {
-      "name": "sebbpro-discovery",
-      "source": "./plugins/sebbpro-discovery",
+      "name": "client-discovery-agent",
+      "source": "./plugins/client-discovery-agent",
       "description": "Phase Discovery: Skills, die Kunden in ihrem eigenen Claude-Account nutzen"
     }
   ]
