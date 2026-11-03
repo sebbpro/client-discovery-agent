@@ -1,0 +1,11 @@
+{
+  "name": "sebbpro-client-skills-marketplace",
+  "owner": { "name": "sebb.pro", "url": "https://sebb.pro" },
+  "plugins": [
+    {
+      "name": "sebbpro-client-skills",
+      "source": "./plugins/sebbpro-client-skills",
+      "description": "Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen"
+    }
+  ]
+}
