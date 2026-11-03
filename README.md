@@ -1,6 +1,6 @@
 # sebbpro-discovery
 
-Phase Discovery: Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen. Leserechte auf dieses Repo gibt es erst, wenn die Phase beginnt.
+Phase Discovery: Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen.
 
 | Skill | Zweck |
 |---|---|

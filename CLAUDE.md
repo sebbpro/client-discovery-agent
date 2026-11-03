@@ -1,6 +1,6 @@
 # CLAUDE.md — sebbpro-discovery
 
-Plugin marketplace for the **Discovery phase**: skills a **client runs in their own Claude account**. One repo per engagement phase (`sebbpro-discovery`, later e.g. `sebbpro-pilot`) — a client gets read access only when that phase starts. This repo is **public**: everything here is
+Plugin marketplace for the **Discovery phase**: skills a **client runs in their own Claude account**. One repo per engagement phase (`sebbpro-discovery`, later e.g. `sebbpro-pilot`). This repo is **public**: everything here is
 readable by anyone — write accordingly.
 
 ## Rules
