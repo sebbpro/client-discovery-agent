@@ -1,6 +1,6 @@
-# sebbpro-client-skills
+# sebbpro-discovery
 
-Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen.
+Phase Discovery: Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen. Leserechte auf dieses Repo gibt es erst, wenn die Phase beginnt.
 
 | Skill | Zweck |
 |---|---|
@@ -9,8 +9,8 @@ Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen.
 ## Installation (Claude Code)
 
 ```
-/plugin marketplace add sebbpro/sebbpro-client-skills
-/plugin install sebbpro-client-skills@sebbpro-client-skills-marketplace
+/plugin marketplace add sebbpro/sebbpro-discovery
+/plugin install sebbpro-discovery@sebbpro-discovery-marketplace
 ```
 
-Danach: `/sebbpro-client-skills:ai-discovery-intake` oder einfach „Discovery starten“.
+Danach: `/sebbpro-discovery:ai-discovery-intake` oder einfach „Discovery starten“.
