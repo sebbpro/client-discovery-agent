@@ -1,6 +1,6 @@
 # CLAUDE.md — sebbpro-ai
 
-Plugin marketplace for skills a **client runs in their own Claude account**. **One marketplace (this repo), one plugin per engagement phase** (`plugins/sebbpro-discovery`, `plugins/sebbpro-pilot`, …), one or more skills per plugin. This repo is **public**: everything here is readable by anyone — write accordingly.
+Plugin marketplace for skills a **client runs in their own Claude account**. **One marketplace (this repo), one plugin per engagement phase** (`plugins/sebbpro-discovery`, …), one or more skills per plugin. This repo is **public**: everything here is readable by anyone — write accordingly.
 
 The client sees `plugin:skill` in the chat (e.g. `sebbpro-discovery:intake`), never the repo name. Follow the naming convention below.
 
@@ -30,8 +30,8 @@ What a client sees in the chat is `<plugin>:<skill>`, e.g. `sebbpro-discovery:in
 |---|---|---|
 | Repo | `sebbpro-<topic>`; this repo is the public client marketplace | `sebbpro-ai` |
 | Marketplace (`name` in `marketplace.json`) | `<repo>-marketplace` | `sebbpro-ai-marketplace` |
-| Plugin = one engagement phase | `sebbpro-<phase>`, lowercase kebab-case, phase as a single noun. The `sebbpro-` prefix names the sender and avoids clashes with other plugins in the client's account. Folder `plugins/<plugin>` is identical to `name` in `plugin.json` | `sebbpro-discovery`, `sebbpro-pilot` |
-| Skill | Short (1–2 words), the **action or artefact**, lowercase kebab-case. **No** sender, phase or `ai-` prefix — the plugin already supplies them. Folder name = `name` in the frontmatter | `intake`, `measure` |
+| Plugin = one engagement phase | `sebbpro-<phase>`, lowercase kebab-case, phase as a single noun. The `sebbpro-` prefix names the sender and avoids clashes with other plugins in the client's account. Folder `plugins/<plugin>` is identical to `name` in `plugin.json` | `sebbpro-discovery` |
+| Skill | Short (1–2 words), the **action or artefact**, lowercase kebab-case. **No** sender, phase or `ai-` prefix — the plugin already supplies them. Folder name = `name` in the frontmatter | `intake` |
 | Output format id (`format:` front matter) | `<topic>-<artefact>/<n>`, kept stable across renames | `ai-discovery-intake/1` |
 
 Further rules:
