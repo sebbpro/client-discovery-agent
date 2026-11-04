@@ -1,6 +1,6 @@
 {
-  "name": "client-discovery-agent",
+  "name": "discovery",
   "description": "Phase Discovery: Vorbereitung und Zusammenfassung für die KI-Einführung",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": { "name": "sebb.pro" }
 }
