@@ -3,13 +3,13 @@
   "owner": { "name": "sebb.pro", "url": "https://sebb.pro" },
   "plugins": [
     {
-      "name": "discovery",
-      "source": "./plugins/discovery",
+      "name": "sebbpro-discovery",
+      "source": "./plugins/sebbpro-discovery",
       "description": "Phase Discovery: Vorbereitungsinterview für die KI-Einführung"
     },
     {
-      "name": "pilot",
-      "source": "./plugins/pilot",
+      "name": "sebbpro-pilot",
+      "source": "./plugins/sebbpro-pilot",
       "description": "Phase Pilot (Beispiel, Entwurf): Zeit und Qualität bei Pilotanwendungen messen"
     }
   ]
