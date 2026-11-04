@@ -1,4 +1,4 @@
-# CLAUDE.md — client-discovery-agent
+# CLAUDE.md — sebbpro-ai
 
 Plugin marketplace for skills a **client runs in their own Claude account**. **One marketplace (this repo), one plugin per engagement phase** (`plugins/discovery`, `plugins/pilot`, …), one or more skills per plugin. This repo is **public**: everything here is readable by anyone — write accordingly.
 

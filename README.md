@@ -1,4 +1,4 @@
-# client-discovery-agent
+# sebbpro-ai
 
 Skills von sebb.pro, die Kunden in ihrem eigenen Claude-Account nutzen. Ein Marketplace, ein Plugin
 pro Projektphase, jedes Plugin mit einem oder mehreren Skills.
@@ -13,9 +13,9 @@ pro Projektphase, jedes Plugin mit einem oder mehreren Skills.
 Marketplace einmal hinzufügen, danach pro Phase das passende Plugin installieren:
 
 ```
-/plugin marketplace add sebbpro/client-discovery-agent
-/plugin install discovery@client-discovery-agent-marketplace
+/plugin marketplace add sebbpro/sebbpro-ai
+/plugin install discovery@sebbpro-ai-marketplace
 ```
 
 Danach `/discovery:intake` oder einfach „Discovery starten“. Für die Pilotphase entsprechend
-`/plugin install pilot@client-discovery-agent-marketplace`.
+`/plugin install pilot@sebbpro-ai-marketplace`.
