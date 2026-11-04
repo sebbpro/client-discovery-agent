@@ -1,8 +1,8 @@
 # CLAUDE.md — sebbpro-ai
 
-Plugin marketplace for skills a **client runs in their own Claude account**. **One marketplace (this repo), one plugin per engagement phase** (`plugins/discovery`, `plugins/pilot`, …), one or more skills per plugin. This repo is **public**: everything here is readable by anyone — write accordingly.
+Plugin marketplace for skills a **client runs in their own Claude account**. **One marketplace (this repo), one plugin per engagement phase** (`plugins/sebbpro-discovery`, `plugins/sebbpro-pilot`, …), one or more skills per plugin. This repo is **public**: everything here is readable by anyone — write accordingly.
 
-The client sees `plugin:skill` in the chat (e.g. `discovery:intake`), never the repo name — keep plugin and skill names short and free of internal vocabulary.
+The client sees `plugin:skill` in the chat (e.g. `sebbpro-discovery:intake`), never the repo name. Follow the naming convention below.
 
 ## Rules
 
@@ -19,5 +19,24 @@ The client sees `plugin:skill` in the chat (e.g. `discovery:intake`), never the 
    `.claude-plugin/marketplace.json` and the README table.
 7. Output formats (`format:` in the summary front matter) are contracts with the sebb.pro-side
    evaluation: changing one bumps its version, e.g. `ai-discovery-intake/1` in
-   `plugins/discovery/skills/intake/assets/zusammenfassung.de.md`. The identifier
+   `plugins/sebbpro-discovery/skills/intake/assets/zusammenfassung.de.md`. The identifier
    `ai-discovery-intake/1` is kept stable on purpose even though the skill is now `intake`.
+
+## Naming convention
+
+What a client sees in the chat is `<plugin>:<skill>`, e.g. `sebbpro-discovery:intake`.
+
+| Level | Rule | Example |
+|---|---|---|
+| Repo | `sebbpro-<topic>`; this repo is the public client marketplace | `sebbpro-ai` |
+| Marketplace (`name` in `marketplace.json`) | `<repo>-marketplace` | `sebbpro-ai-marketplace` |
+| Plugin = one engagement phase | `sebbpro-<phase>`, lowercase kebab-case, phase as a single noun. The `sebbpro-` prefix names the sender and avoids clashes with other plugins in the client's account. Folder `plugins/<plugin>` is identical to `name` in `plugin.json` | `sebbpro-discovery`, `sebbpro-pilot` |
+| Skill | Short (1–2 words), the **action or artefact**, lowercase kebab-case. **No** sender, phase or `ai-` prefix — the plugin already supplies them. Folder name = `name` in the frontmatter | `intake`, `measure` |
+| Output format id (`format:` front matter) | `<topic>-<artefact>/<n>`, kept stable across renames | `ai-discovery-intake/1` |
+
+Further rules:
+- Install ID is `<plugin>@<marketplace>`, e.g. `sebbpro-discovery@sebbpro-ai-marketplace`.
+- No internal vocabulary (see rule 3) and no technical terms in plugin or skill names.
+- **Renaming a plugin or skill breaks every existing install** — decide names before a client installs; after that rename only with a version bump and a note to the clients.
+- A new skill that fits an existing phase goes into that phase's plugin; a new phase is a new plugin.
+
