@@ -1,5 +1,5 @@
 ---
-name: ai-discovery-intake
+name: intake
 description: Vorbereitungsinterview für die KI-Einführung im eigenen Unternehmen — führt die Ansprechperson in kurzen Schritten durch Ziel, wiederkehrende Aufgaben, Werkzeuge, Regeln und Beteiligte und erzeugt eine Zusammenfassung, die sie prüft und an sebb.pro schickt. Use when the user says "Discovery starten", "KI-Einführung vorbereiten", "Vorbereitung für das Gespräch mit sebb.pro", "weiter mit der Discovery", or "start AI discovery intake".
 ---
 

@@ -3,9 +3,14 @@
   "owner": { "name": "sebb.pro", "url": "https://sebb.pro" },
   "plugins": [
     {
-      "name": "client-discovery-agent",
-      "source": "./plugins/client-discovery-agent",
-      "description": "Phase Discovery: Skills, die Kunden in ihrem eigenen Claude-Account nutzen"
+      "name": "discovery",
+      "source": "./plugins/discovery",
+      "description": "Phase Discovery: Vorbereitungsinterview für die KI-Einführung"
+    },
+    {
+      "name": "pilot",
+      "source": "./plugins/pilot",
+      "description": "Phase Pilot (Beispiel, Entwurf): Zeit und Qualität bei Pilotanwendungen messen"
     }
   ]
 }
